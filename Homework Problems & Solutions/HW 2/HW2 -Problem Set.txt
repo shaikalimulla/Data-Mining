@@ -1,0 +1,35 @@
+1) 
+Stock quotes analysis. Go to http://www.nasdaq.com/quotes/, enter a symbol in step 1 (e.g., “HD”) and click “Historical Quotes” in step 2. 
+On the next page, you can select different time frame (e.g., “3 Years”), view the data, and download the data as a .csv file using the link at the 
+bottom of the page. Please note that if you download the .csv file when the stocks are still trading, the first line has a different format. 
+You can either remove that first line or download the .csv files when the stock market is closed. 
+
+Using the python code template provided,  write a python program that does the following analysis: 
+
+(a) Given a single filename, attribute type, and normalization method, compute the corresponding normalized attributed values. 
+Using range [0, 1.0] for min-max normalization.  Output two values per line: the original attributed value and the normalized attribute value, 
+separated by the < tab > key. 
+
+E.g., python DMPythonHW2.py -f1 FB.csv -a1 volume -n min_max
+
+(b) Given two filenames, their corresponding attribute types, compute the correlation coefficient between the two attributes types in the two files. 
+Output a single value, which is the correlation coefficient. 
+
+E.g., python DMPythonHW2.py -f1 FB.csv -a1 high -f2 FB.csv -a2 low 
+
+E.g., python DMPythonHW2.py -f1 FB.csv -a1 open -f2 AAPL.csv -a2 open 
+
+Name your python code as LastName_FirstName_HW2.py. Please attach the .py file here. 
+
+2) 
+Using the same website http://www.nasdaq.com/quotes/, obtain the 3-year data for “HD” and plot the following: 
+
+(a) A single plot showing the temporal change of the “High” and ”Low” attributes. 
+
+(b) A boxplot for the “Open” and “Close/Last” attributes. 
+
+(c) The 10-bin equal-width histogram for the “Volume” attribute. 
+
+(d) Any plot that interests you (using this HD dataset).
+
+Put all your plots in a single pdf file named in the format LastName_FirstName_HW2.pdf and attach it here.

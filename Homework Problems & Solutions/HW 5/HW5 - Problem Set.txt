@@ -1,0 +1,18 @@
+1. Consider the different classification methods we have discussed in class. Name one classification method for each of the following scenarios and 
+briefly explain why.
+ 
+(a) A classification method that supports incremental data. - Bayesian Classification
+
+(b) A classification method whose classification decisions are easy to interpret. - decision tree classification method
+
+(c) A classification method whose classification decisions are not easy to interpret and has many parameters to train. - Neural Network as Classifier
+
+2. Given a set of points A1 (2, 10), A2 (2, 5), A3 (8, 4), B1 (5, 8), B2 (7, 5), B3 (6, 4), C1 (1, 2), C2 (4, 9), where (x, y) represents location and 
+the distance function is Euclidean distance. Our goal is to cluster these points into three clusters using k-means clustering, and the initial three centroids 
+are A1, B1, and C1. Show the key steps of the first round of clustering. 
+
+3. Provide an application example for each of the three types of outliers: global outliers, contextual outliers, and collective outliers. 
+Briefly describe the related attributes and how the specific type of outliers may be defined and detected.
+
+4. Briefly describe one data mining tool that you have used either in this course or in other settings.  - R
+What did you use this tool for? What are the key strengths and possible limitations of this tool?

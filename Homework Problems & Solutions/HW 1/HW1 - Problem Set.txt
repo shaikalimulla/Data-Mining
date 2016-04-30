@@ -1,0 +1,50 @@
+1) Identify two data sets that are publicly available online and answer the following questions for each of the two data sets:
+
+(a)  URL of the webpage to access the data set.
+
+(b)  Brief description of the data set, including number of objects, number of attributes, attribute types, and other relevant information.
+
+(c)  What knowledge may be mined from this data set?
+
+(d)  How would the knowledge be useful in some applications?
+
+2) Check out recent KDD conferences ( http://dl.acm.org/event.cfm?id=RE329&CFID=620349577&CFTOKEN=39120347 ;, Publication Archive). Pick one paper that interests you and answer the following questions:
+
+
+(a)  Conference venue (e.g., KDD’15), paper title, authors, and affiliations.
+
+(b)  What problem is addressed? Why is the problem important and challenging?
+
+(c)  A high-level, brief description of the proposed solution (no need to include the details).
+
+(d)  How is the proposed solution evaluated? (data sets, metrics, etc.)
+
+
+3) 
+Given the MAGIC Gamma Telescope Data Set (http://archive.ics.uci.edu/ml/datasets/MAGIC+Gamma+Telescope)
+
+
+(a)  Write a python program that takes one command line argument i (i belongs to [1, 10]) and computes the following values for the i-th attribute of the 
+dataset: N (number of objects), min, max, mean, standard deviation, Q1, median, Q3, IQR. Output all the values in a single line, separated by comma.
+
+(b)  Generate a scatter plot using the 4th and 5th attributes. You can use any plotting tool, such as excel, matlab, gnuplot, R, python, etc. 
+
+Name your python code as LastName_FirstName_HW1.py and your scatter plot as LastName_FirstName_HW1.pdf. Please attach the .py program file and the .pdf plot separately in the attachments section (Don't zip the files). You can ignore the text box.
+
+
+
+
+
+
+a) http://labrosa.ee.columbia.edu/millionsong/pages/getting-dataset#subset
+
+b) The Million Song Dataset is a freely-available collection of audio features and metadata for a million contemporary popular music tracks.
+Below are a list of all fields available in the files of the dataset. If any of the particular field is available then it will be displayed. 
+
+
+
+
+http://snap.stanford.edu/data/index.html
+
+https://aws.amazon.com/datasets/1000-genomes-project/?_encoding=UTF8&jiveRedirect=1
+https://github.com/caesar0301/awesome-public-datasets
